@@ -18,6 +18,10 @@ bool IsLeapYear(int year)
 	else return false;
 }
 
+int SecondsINHours(int h)
+{
+	return h * 60 * 60;
+}
 
 int main()
 {
